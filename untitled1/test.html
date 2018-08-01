@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="fa" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="flickity.min.css" media="screen">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"  crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/test.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main-page.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/product.css">
+    <script src="js/test.js" type="javascript"></script>
+</head>
+<body>
+
+<div class= "container-fluid navbar navbar-default"  >
+    <div class="container " style="width: 92% ">
+        <div class="row" style="width: 100%;padding-left: 0;padding-right: 0;"  >
+        <div class="col-lg-2 navbar-right  "style="padding-bottom: 0px;padding-top: 15px">
+            <button  class="button in_button" dir="rtl" style="background: #f68658" ><img class="icon icon_reg" src="login-square-arrow-button-outline.svg">
+                ثبت نام یا ورود
+            </button>
+        </div>
+        <div class="col-lg-2 navbar-right" style="padding-bottom: 0px;padding-top: 15px">
+            <button  class="button add_button "  >  درج محصول رایگان  </button>
+        </div>
+            <div class="col-lg-6 navbar-right"  style="padding-bottom: 0px;padding-top: 15px">
+                <div class="row"  >
+                    <form class=" form-group pull-right" style="width: 100%">
+                        <input class="search-box" type="text" placeholder="جستجو در محصولات....." >
+                    <div class="dropdown ">
+                        <button class=" dropbtn">دسته بندی محصولات</button>
+                        <div class="dropdown-content">
+                            <a href=""> 1 </a>
+                            <a href=""> 2 </a>
+                            <a href=""> 3 </a>
+                        </div>
+                    </div>
+                    <div class="search-button " >
+                        <button id="search" type="submit" class="search-btn"></button>
+                    </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-lg-2  navbar-right" style="padding-left: 0;height: 50px;padding-top: 15px;">
+                <img class="img-logo" src="logo.png">
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="nav-head container-fluid" >
+        <a href="" class=" nav-item"> کشاورزی </a>
+        <a href="" class=" nav-item "> پوشاک </a>
+        <a href="" class="nav-item"  > وسایل نقلیه</a>
+        <a href="" class="  nav-item ">ارایش و بهداشتی</a>
+        <a href="" class="nav-item" > خدمات شغلی</a>
+        <a href="" class="nav-item" > مواد شیمیایی</a>
+        <a href="" class="nav-item" > ساخت و ساز مسکن</a>
+        <a href="" class="nav-item" >لوازم الکترونیکی مصرفی</a>
+        <a href="" class="nav-item" > تجهیزات برق و ملزومات</a>
+        <a href="" class=" nav-item "> سایر دسته بندی ها </a>
+</div>
+    <div class="gp_btn">
+        <button class="varedat varedat_koodak"> واردات لوازم کودک </button>
+        <button class="varedat varedat_kala"> واردات کالای خانه </button>
+        <button class="dr-info"> اطلاعات پزشکان </button>
+        <button class="phone-busi">  </button>
+        <button class="telegram"> کانال ما را در تلگرام دنبال کنید </button>
+        <div class="news">
+            <hr class="hr-news"><h4 class="news-title"> اخرین اخبار </h4>
+            <div class="news-part">
+                <img class="news-img" src="pic.png">
+                <div class="date">
+                <a class="news-text" > رشد 7 درصدی صادرات لبنیات کشور </a>
+                <p class="news-date">  پنجشنبه 7 دی </p>
+                </div>
+            </div>
+            <div class="news-part">
+                <img class="news-img" src="pic.png">
+                <div class="date">
+                    <a class="news-text" > رشد 7 درصدی صادرات لبنیات کشور </a>
+                    <p class="news-date">  پنجشنبه 7 دی </p>
+                </div>
+            </div>
+            <div class="news-part">
+                <img class="news-img" src="pic.png">
+                <<div class="date">
+                <a class="news-text" > رشد 7 درصدی صادرات لبنیات کشور </a>
+                <p class="news-date">  پنجشنبه 7 دی </p>
+            </div>
+            </div>
+            <div class="news-part">
+                <img class="news-img" src="pic.png">
+                <div class="date">
+                    <a class="news-text" > رشد 7 درصدی صادرات لبنیات کشور </a>
+                    <p class="news-date">  پنجشنبه 7 دی </p>
+                </div>
+            </div>
+            <div class="news-part">
+                <img class="news-img" src="pic.png">
+                <div class="date">
+                    <a class="news-text" > رشد 7 درصدی صادرات لبنیات کشور </a>
+                    <p class="news-date">  پنجشنبه 7 دی </p>
+                </div>
+                <button class="news-add"> <img src="plus.svg" class="news-add-icon"> </button>
+            </div>
+        </div>
+        <button class="latifi"></button>
+        <button class="last-banner"> </button>
+
+    </div>
+    <div class=" slider">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+            <div class="carousel-inner">
+                <div class="item active" >
+                    <img class="image-slider" src="img_mountains_wide.jpg" style="width: 100%">
+                    <div class="carousel-caption">
+
+                    </div>
+                </div>
+                <div class="item" >
+                    <img class="image-slider" src="img_fjords_wide.jpg" style="width: 100%">
+                    <div class="carousel-caption ">
+
+                    </div>
+                </div>
+                <div class="item" >
+                    <img class="image-slider" src="img_nature_wide.jpg" style="width: 100%">
+
+                </div>
+            </div>
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" id="left" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+            <div class="button-slider-gp">
+                <button class="button-slider" data-target="#myCarousel" data-slide-to="0" class="active"> تلویزیون های سامسونگ </button>
+                <button class="button-slider" data-target="#myCarousel" data-slide-to="1"> میوه های خشک سربندر </button>
+                <button class="button-slider" data-target="#myCarousel" data-slide-to="2"> زعفران سرگل </button>
+                <button class="button-slider"> زرشک </button>
+                <button class="button-slider"> ماشین الات وکیومی </button>
+
+            </div>
+        </div>
+    </div>
+<div class="moarefi-darkhast">
+        <div class="moarefi-mahsoolat">
+            <h3 class="moarefi-mahsoolat-text"> معرفی محصولات در وب سایت </h3>
+            <p class="moarefi-mahsoolat-cite"> می توانید کالای خود را در سایت معرفی کنید </p>
+            <button class="moarefi-mahsoolat-btn">
+                اطللاعات بیشتر
+            </button>
+        </div>
+        <div class="darkhast">
+            <h3 class="moarefi_text"> درخواست های خرید بین المللی </h3>
+            <p class="moarefi_text_cite">  به راحتی می توانید به کشور های خارجی سفر کنید و خرید کنید</p>
+            <button class="darkhast-btn"> اطللاعات بیشتر </button>
+        </div>
+</div>
+        <div class="nav-pro-div " >
+           <ul class="nav-pro  pull-right">
+                    <li class="nav-pro-li active">
+                        <button class="nav-product-item " href=""><img class="item1" src="keshavarzi.png"></button>
+                    </li>
+                    <li class="nav-pro-li">
+                        <button class="nav-product-item " href=""><img class="item1" src="karkhane.png"></button>
+                    </li>
+                    <li class="nav-pro-li">
+                        <button class="nav-product-item " href=""><img class="item1" src="mavadavaliye.png"></button>
+                    </li>
+           </ul>
+        </div>
+        <div class="product-list">
+            <div class="product-item">
+                <button  class="like-button"  onclick=" document.getElementById('like').src='if_heart_299063.png'" >
+                <img id="like" class="like-photo" src="if_icon-ios7-heart-outline_211754.png">
+                </button>
+                <img class="product-img" src="item.png">
+                <h4 class="product-text"> کاپشن کوتاه زنانه lenado </h4>
+                <cite class="product-country"> ایران <img class="flag" src="flag.png"></cite>
+                <button class="product-see"> مشاهده </button>
+            </div>
+            <div class="product-item">
+                <button  class="like-button"  onclick=" document.getElementById('like20').src='if_heart_299063.png'" >
+                    <img id="like20" class="like-photo" src="if_icon-ios7-heart-outline_211754.png">
+                </button>
+                <img class="product-img" src="item.png">
+                <h4 class="product-text"> کاپشن کوتاه زنانه lenado </h4>
+                <cite class="product-country"> <img class="flag" src="flag.png">ایران </cite>
+                <button class="product-see"> مشاهده </button>
+            </div>
+            <div class="product-item">
+                <button  class="like-button"  onclick=" document.getElementById('like3').src='if_heart_299063.png'" >
+                    <img id="like3" class="like-photo" src="if_icon-ios7-heart-outline_211754.png">
+                </button>
+                <img class="product-img" src="item.png">
+                <h4 class="product-text"> کاپشن کوتاه زنانه lenado </h4>
+                <cite class="product-country"> <img class="flag" src="flag.png">ایران </cite>
+                <button class="product-see"> مشاهده </button>
+            </div>
+            <div class="product-item">
+                <button  class="like-button"  onclick=" document.getElementById('like4').src='if_heart_299063.png'" >
+                    <img id="like4" class="like-photo" src="if_icon-ios7-heart-outline_211754.png">
+                </button>
+                <img class="product-img" src="item.png">
+                <h4 class="product-text"> کاپشن کوتاه زنانه lenado </h4>
+                <cite class="product-country"><img class="flag" src="flag.png"> ایران </cite>
+                <button class="product-see"> مشاهده </button>
+            </div>
+            <div class="product-item">
+                <button  class="like-button"  onclick=" document.getElementById('like5').src='if_heart_299063.png'" >
+                    <img id="like5" class="like-photo" src="if_icon-ios7-heart-outline_211754.png">
+                </button>
+                <img class="product-img" src="item.png">
+                <h4 class="product-text"> کاپشن کوتاه زنانه lenado </h4>
+                <cite class="product-country"> <img class="flag" src="flag.png">ایران </cite>
+                <button class="product-see"> مشاهده </button>
+            </div>
+            <div class="product-item">
+                <button  class="like-button"  onclick=" document.getElementById('like6').src='if_heart_299063.png'" >
+                    <img id="like6" class="like-photo" src="if_icon-ios7-heart-outline_211754.png">
+                </button>
+                <img class="product-img" src="item.png">
+                <h4 class="product-text"> کاپشن کوتاه زنانه lenado </h4>
+                <cite class="product-country"> <img class="flag" src="flag.png">ایران </cite>
+                <button class="product-see"> مشاهده </button>
+            </div>
+            <div class="product-item">
+                <button  class="like-button"  onclick=" document.getElementById('like7').src='if_heart_299063.png'" >
+                    <img id="like7" class="like-photo" src="if_icon-ios7-heart-outline_211754.png">
+                </button>
+                <img class="product-img" src="item.png">
+                <h4 class="product-text"> کاپشن کوتاه زنانه lenado </h4>
+                <cite class="product-country"> ایران <img class="flag" src="flag.png"></cite>
+                <button class="product-see"> مشاهده </button>
+            </div>
+            <div class="product-item">
+                <button  class="like-button"  onclick=" document.getElementById('like8').src='if_heart_299063.png'" >
+                    <img id="like8" class="like-photo" src="if_icon-ios7-heart-outline_211754.png">
+                </button>
+                <img class="product-img" src="item.png">
+                <h4 class="product-text"> کاپشن کوتاه زنانه lenado </h4>
+                <cite class="product-country"><img class="flag" src="flag.png"> ایران </cite>
+                <button class="product-see"> مشاهده </button>
+            </div>
+        </div>
+<div class="main-header" >
+    <div style="display: block">
+        <p class="personal-product-title"> لوازم شخصی </p>
+        <button class="personal-product-button"> مشاهده همه </button>
+        <hr class="hr-product">
+
+    </div>
+</div>
+<div class="main-gallery"  data-flickity>
+    <div class="gallery-cell">
+        <button  class="like-button"  onclick=" document.getElementById('like1').src='if_heart_299063.png'" >
+            <img id="like1" class="like-photo" src="if_icon-ios7-heart-outline_211754.png">
+        </button>
+        <img class="product-img" src="item.png">
+        <h4 class="product-text"> کاپشن کوتاه زنانه lenado </h4>
+        <cite class="product-country"><img class="flag" src="flag.png"> ایران </cite>
+        <button class="product-see"> مشاهده </button>
+    </div>
+    <div class="gallery-cell">
+        <button  class="like-button"  onclick=" document.getElementById('like2').src='if_heart_299063.png'" >
+            <img id="like2" class="like-photo" src="if_icon-ios7-heart-outline_211754.png">
+        </button>
+        <img class="product-img" src="item.png">
+        <h4 class="product-text"> کاپشن کوتاه زنانه lenado </h4>
+        <cite class="product-country"> <img class="flag" src="flag.png">ایران </cite>
+        <button class="product-see"> مشاهده </button>
+    </div>
+    <div class="gallery-cell">
+        <button  class="like-button"  onclick=" document.getElementById('like10').src='if_heart_299063.png'" >
+            <img id="like10" class="like-photo" src="if_icon-ios7-heart-outline_211754.png">
+        </button>
+        <img class="product-img" src="item.png">
+        <h4 class="product-text"> کاپشن کوتاه زنانه lenado </h4>
+        <cite class="product-country"> <img class="flag" src="flag.png">ایران </cite>
+        <button class="product-see"> مشاهده </button>
+    </div>
+    <div class="gallery-cell">
+        <button  class="like-button"  onclick=" document.getElementById('like11').src='if_heart_299063.png'" >
+            <img id="like11" class="like-photo" src="if_icon-ios7-heart-outline_211754.png">
+        </button>
+        <img class="product-img" src="item.png">
+        <h4 class="product-text"> کاپشن کوتاه زنانه lenado </h4>
+        <cite class="product-country"> <img class="flag" src="flag.png">ایران </cite>
+        <button class="product-see"> مشاهده </button>
+    </div>
+    <div class="gallery-cell">
+        <button  class="like-button"  onclick=" document.getElementById('like12').src='if_heart_299063.png'" >
+            <img id="like12" class="like-photo" src="if_icon-ios7-heart-outline_211754.png">
+        </button>
+        <img class="product-img" src="item.png">
+        <h4 class="product-text"> کاپشن کوتاه زنانه lenado </h4>
+        <cite class="product-country"> <img class="flag" src="flag.png">ایران </cite>
+        <button class="product-see"> مشاهده </button>
+    </div>
+    <div class="gallery-cell">
+        <button  class="like-button"  onclick=" document.getElementById('like13').src='if_heart_299063.png'" >
+            <img id="like13" class="like-photo" src="if_icon-ios7-heart-outline_211754.png">
+        </button>
+        <img class="product-img" src="item.png">
+        <h4 class="product-text"> کاپشن کوتاه زنانه lenado </h4>
+        <cite class="product-country"> <img class="flag" src="flag.png">ایران </cite>
+        <button class="product-see"> مشاهده </button>
+    </div>
+</div>
+<div class="main-header second" >
+    <div class="see" style="display: block ">
+        <p class="personal-product-title"> لوازم شخصی </p>
+        <button class="personal-product-button"> مشاهده همه </button>
+        <hr class="hr-product">
+    </div>
+</div>
+<div class="main-gallery "   data-flickity style="padding-bottom: 15px">
+    <div class="gallery-cell">
+        <button  class="like-button"  onclick=" document.getElementById('like14').src='if_heart_299063.png'" >
+            <img id="like14" class="like-photo" src="if_icon-ios7-heart-outline_211754.png">
+        </button>
+        <img class="product-img" src="item.png">
+        <h4 class="product-text"> کاپشن کوتاه زنانه lenado </h4>
+        <cite class="product-country"><img class="flag" src="flag.png"> ایران </cite>
+        <button class="product-see"> مشاهده </button>
+    </div>
+    <div class="gallery-cell">
+        <button  class="like-button"  onclick=" document.getElementById('like15').src='if_heart_299063.png'" >
+            <img id="like15" class="like-photo" src="if_icon-ios7-heart-outline_211754.png">
+        </button>
+        <img class="product-img" src="item.png">
+        <h4 class="product-text"> کاپشن کوتاه زنانه lenado </h4>
+        <cite class="product-country"> <img class="flag" src="flag.png">ایران </cite>
+        <button class="product-see"> مشاهده </button>
+    </div>
+    <div class="gallery-cell">
+        <button  class="like-button"  onclick=" document.getElementById('like16').src='if_heart_299063.png'" >
+            <img id="like16" class="like-photo" src="if_icon-ios7-heart-outline_211754.png">
+        </button>
+        <img class="product-img" src="item.png">
+        <h4 class="product-text"> کاپشن کوتاه زنانه lenado </h4>
+        <cite class="product-country"> <img class="flag" src="flag.png">ایران </cite>
+        <button class="product-see"> مشاهده </button>
+    </div>
+    <div class="gallery-cell">
+        <button  class="like-button"  onclick=" document.getElementById('like17').src='if_heart_299063.png'" >
+            <img id="like17" class="like-photo" src="if_icon-ios7-heart-outline_211754.png">
+        </button>
+        <img class="product-img" src="item.png">
+        <h4 class="product-text"> کاپشن کوتاه زنانه lenado </h4>
+        <cite class="product-country"> <img class="flag" src="flag.png">ایران </cite>
+        <button class="product-see"> مشاهده </button>
+    </div>
+</div>
+<br>
+<div class="footer">
+        <div class="container-fluid footer-head-content">
+            <img src="telephone.svg" class="phone-icon" >
+            <p class="footer-text"> میزبان صدای گرمتان هستیم...<span> جهت مشاوره تماس بگیرید </span> </p>
+            <h3 class="phone-number"> 09214026725</h3>
+        </div>
+        <div class="footer-content">
+            <img src=" images.jpg" class="trust-photo">
+            <p class="text">  ورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</p>
+                <div class="signup">
+            <h4 >عضویت در خبرنامه</h4>
+                <span style="padding-right: 0">با عضویت در خبرنامه روزانه ایمیل های آموزشی درباره طراحی وبسایت و تبلیغات را دریافت خواهید کرد .</span>
+                <form>
+                    <input type="email" name="email" class="signup-textbox" placeholder="ایمیل خود را وارد کنید ...">
+                    <button class="signup-butt">عضویت</button>
+                </form>
+                <div class="social">
+                    <a href="#" class="social-button "><img class="social-icon" src="instagram-off.svg"></a>
+                    <a href="#" class="social-button "><img class="social-icon" src="twitter-off.svg"></a>
+                    <a href="#" class="social-button"><img class="social-icon" src="facebook-logo-off.svg"></a>
+                    <a href="#" class="social-button"><img class="social-icon" src="linkedin-logo-off.svg"></a>
+                    <a href="#" class="social-button"><img class="social-icon" src="google-plus-logo-off.svg"></a>
+                </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+<script src="jquery.min.js"></script>
+<script src="flickity.pkgd.min.js"></script>
+<script type="text/javascript">
+    $('.main-gallery').flickity({
+        cellAlign: "right",
+        wrapAround: true,
+        freeScroll: true,
+        pageDots:false,
+        prevNextButtons: true,
+        groupCells:4
+
+    });
+
+</script>
+
+
+
+
+
+
+
+</body>
+</html>

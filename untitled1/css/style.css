@@ -1,0 +1,190 @@
+@media(max-width: 1300px) {
+    body{
+        overflow-x: hidden;
+        width: 100%;
+        height: 100%;
+    }
+
+    .button:first-child {
+        margin: 0;
+    }
+    .add_button{
+        margin-right: 0;
+    }
+    .navbar{
+        overflow: hidden;
+        height: auto;
+        width: 100%;
+    }
+
+    .nav-head{
+        float: left;
+        overflow: hidden;
+        white-space: nowrap;
+        padding-right:4% ;
+    }
+    .nav-item {
+        padding: auto;
+        margin-top: 1%;
+        margin-right: 0;
+        overflow-x: hidden;
+
+    }
+
+
+    .gp_btn {
+        float: none;
+        padding-left: 30px;
+        padding-right: 30px;
+        width: 100%;
+    }
+
+    .varedat_koodak {
+        background-size: 100% 100%;
+    }
+
+    .varedat_kala {
+        background-size: 100% 100%;
+    }
+
+    .phone-busi {
+        background-size: 100% 100%;
+    }
+
+    .telegram {
+        background-size: 100% 100%;
+    }
+
+    .date {
+        width: 80%;
+        float: right;
+    }
+
+    .latifi {
+        background-size: 100% 100%;
+    }
+    .last-banner{
+        background-size: 100% 100%;
+    }
+    .slider{
+        width: 100%;
+        float: right;
+        margin-top: 15px;
+        padding-right: 15px;
+        margin-right: 0;
+        padding-left: 45px;
+    }
+    .moarefi-darkhast{
+        width:95%;
+        margin-right: 15px;
+        padding-left: 15px;
+    }
+    .moarefi-mahsoolat{
+        margin-bottom: 10px;
+        align-content: center;
+        width: 100%;
+    }
+    .moarefi-mahsoolat-cite{
+        padding: 10px;
+        width: 100%;
+    }
+    .moarefi-mahsoolat-btn{
+        padding: 5px;
+        margin-top: -4%;
+    }
+    .darkhast{
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        margin-right: 0;
+        width: 100%;
+    }
+    .darkhast-btn {
+        padding: 5px;
+        margin-top: 5%;
+        margin-right: 22%;
+    }
+
+    .nav-pro{
+        margin-right: 1.7%;
+        padding: 0;
+        width: 93.6%;
+    }
+
+    .product-list{
+        float: none;
+        min-width: 93.5%;
+
+        overflow: hidden;
+    }
+    .product-item{
+        height: auto;
+        width: 93.5%;
+    }
+    .product-img{
+        min-width: 40%;
+    }
+
+    .contact{
+        height: auto;
+        margin-top: 100%;
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .footer{
+
+    }
+    .trust-photo{
+        margin-right: 20%;
+        width: 50%;
+        margin-left: 20%;
+    }
+    .text{
+        padding-right: 27px;
+        margin: 0;
+        width: 90%;
+        float: right;
+    }
+    .signup{
+        width:100%;
+        padding-top: 0;
+        padding-right: 0;
+        float: right;
+    }
+    .social{
+        float: right;
+        margin-top: 5px;
+    }
+    .signup-textbox{
+        width: 50%;
+        float: right;
+    }
+    .signup-butt{
+        float: right;
+    }
+    .footer-content{
+        margin-top:0;
+        align-content: center;
+        width: 100%;
+        height: 13cm;
+    }
+    .news-part{
+        padding-right: 5%;
+    }
+    .news-text{
+        width: 100%;
+    }
+    .news-img{
+        margin-right:0;
+    }
+    .news-part{
+        width: 100%;
+        height: auto;
+    }
+    .main-header{
+        min-width: 93.5%;
+    }
+    .main-gallery{
+        min-width: 93.5%;
+    }
+}
+
